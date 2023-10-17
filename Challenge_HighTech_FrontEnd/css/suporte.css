@@ -109,10 +109,33 @@ body {
 }
 
 .suporte_content {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.suporte_content ul {
+    list-style: none;
+}
+
+.suporte_content ul  h1 {
+    margin-bottom: 2rem;
+}
+
+.suporte_content li a{
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 1rem 0rem 0.5rem 0rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 0.3rem solid transparent;
+}
+
+.suporte_content li a:hover {
+    border-bottom: 0.3rem solid;
 }
 
 footer {
