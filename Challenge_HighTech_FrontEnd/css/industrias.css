@@ -122,12 +122,14 @@ body {
 
 .industrias_content ul  h1 {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .industrias_content li a{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 1rem;
-    padding: 1rem 0rem 0.5rem 0rem;
+    padding: 1rem 0rem 0.5rem 1rem;
     color: #ffffff;
     font-weight: 600;
     text-decoration: none;
@@ -136,6 +138,11 @@ body {
 
 .industrias_content li a:hover {
     border-bottom: 0.3rem solid;
+}
+
+.industrias_content i{
+    margin-left: 2rem;
+    font-size: 2.5rem;
 }
 
 footer {
