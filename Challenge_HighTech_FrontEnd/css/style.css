@@ -49,7 +49,7 @@ body {
     align-items: center;
 }
 
-#nav #logo{
+#nav #logo {
     padding: 3rem 4rem 2rem 1rem;
     color: #ffffff;
     font-size: 2.5rem;
@@ -58,7 +58,7 @@ body {
     display: inline-block;
 }
 
-#nav img{
+#nav img {
     width: 6rem;
 }
 
@@ -80,7 +80,6 @@ body {
 }
 
 #login {
-    width: 15rem;
     height: 5rem;
     
     display: flex;
@@ -94,11 +93,108 @@ body {
     border-radius: 3rem;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     margin: 5rem 0rem;
 }
+
+.content h2 {
+    padding: 0rem 5rem;
+    margin: 3rem 0rem 2rem 0rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content-top {
+    display: flex;
+    flex-direction: row;
+}
+.text-top h1 {
+    font-size: 4.8rem;
+}
+
+.text-top p {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.content img {
+    width: 50rem;
+    margin-right: 10rem;
+}
+
+.content_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 100%;
+    margin: 2rem;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.card img {
+    width: 100%;
+    margin: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card p {
+    height: 15rem;
+    margin: 3rem 2rem;
+    font-size: 2rem;
+}
+
+.produtos_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 100%;
+    margin: 2rem;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.card img {
+    width: 100%;
+    margin: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card h3 {
+    margin: 1rem 2rem 0rem 2rem;
+    font-size: 2rem;
+}
+
+.card p {
+    height: 15rem;
+    margin: 1rem 2rem 3rem 2rem;
+    font-size: 2rem;
+}
+
+
+
 
 #login:hover {
     background: #38B6FF;
