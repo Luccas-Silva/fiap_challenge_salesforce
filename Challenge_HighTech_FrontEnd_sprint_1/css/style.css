@@ -12,7 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html, body{
+html, body {
     min-height: 100vh;
 }
 
@@ -49,7 +49,7 @@ body {
     align-items: center;
 }
 
-#nav #logo{
+#nav #logo {
     padding: 3rem 4rem 2rem 1rem;
     color: #ffffff;
     font-size: 2.5rem;
@@ -58,7 +58,7 @@ body {
     display: inline-block;
 }
 
-#nav img{
+#nav img {
     width: 6rem;
 }
 
@@ -80,7 +80,6 @@ body {
 }
 
 #login {
-    width: 15rem;
     height: 5rem;
     
     display: flex;
@@ -92,12 +91,6 @@ body {
     transition: all .5s;
     border: 2px solid #ffffff;
     border-radius: 3rem;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    margin: 5rem 0rem;
 }
 
 #login:hover {
@@ -113,6 +106,34 @@ body {
 }
 
 
+
+#content_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0rem;
+}
+.card { 
+    width: 50rem;
+    margin: 5rem 0rem;
+    padding: 2rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.card h1 {
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+
+
+
 footer {
     margin-top: 5rem;
     padding: 0rem 5rem;
@@ -124,23 +145,19 @@ footer {
     -webkit-backdrop-filter: blur(20px);
 }
 
-#footer_content{
+#footer_content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-#footer_content img{
+#footer_content img {
     width: 12.5rem;
 }
 
-
-
 .footer_list li {
-    display: inline;
-      
+    display: inline;  
 }
   
 .footer_list li a {
