@@ -51,7 +51,7 @@ public class Program {
 		catastro = sc.nextLine();
 		user.setPassword(catastro);
 	
-		char menu = 'n';
+		char menu = 's';
 		do {
 			System.out.println("\n # Salesforce X HighTech #");
 			System.out.println("  ----------------------- ");
@@ -93,7 +93,7 @@ public class Program {
 				menu = sc.next().toLowerCase().charAt(0);
 			}
 			
-		} while (menu != 'n');
+		} while (menu != 's');
 		System.out.println("\n Obrigado por usar o nosso Sistema.");
 		System.out.println("    # Salesforce X HighTech #");
 
