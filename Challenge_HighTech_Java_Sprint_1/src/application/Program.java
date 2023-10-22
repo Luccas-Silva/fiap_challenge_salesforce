@@ -11,9 +11,9 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		PageSalesforce psf = new PageSalesforce();
 		
-		User luccas = new User("Luccas Silva", "Luccas.@gmail.com", "Developer", "99999999999", "RM552890");
-		User Burno = new User("Burno Burian", "Burno.@gmail.com", "Developer", "99999999999", "RM552863");
-		User Nathalia = new User("Nathalia Freire", "Nathalia.@gmail.com", "Developer", "99999999999", "RM553233");
+		User Luccas = new User("Luccas Silva", "Luccas.@gmail.com", "Developer", "99999999999", "RM:552890");
+		User Burno = new User("Burno Burian", "Burno.@gmail.com", "Developer", "99999999999", "RM:552863");
+		User Nathalia = new User("Nathalia Freire", "Nathalia.@gmail.com", "Developer", "99999999999", "RM:553233");
 		
 		User user = new User();
 		
@@ -94,8 +94,13 @@ public class Program {
 			}
 			
 		} while (menu != 's');
-		System.out.println("\n Obrigado por usar o nosso Sistema.");
-		System.out.println("    # Salesforce X HighTech #");
+		System.out.println("\n Obrigado por usar o nosso Sistema.\n");
+		System.out.println("    #        Dev Team       #");
+		System.out.println("    -------------------------");
+		System.out.printf("    # %s %s #\n",Luccas.getName(), Luccas.getPassword());
+		System.out.printf("    # %s %s #\n",Burno.getName(), Burno.getPassword());
+		System.out.printf("    # %s %s #\n",Nathalia.getName(), Nathalia.getPassword());
+		
 
 		sc.close();
 	}
