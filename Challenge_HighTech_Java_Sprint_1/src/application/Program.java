@@ -2,92 +2,95 @@ package application;
 
 import java.util.Scanner;
 
-import entities.PageSalesforce;
+import entities.Aprendizado;
+import entities.Empresa;
+import entities.Industrias;
+import entities.LandingPage;
+import entities.Produtos;
+import entities.Suporte;
 import entities.User;
 
 public class Program {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		PageSalesforce psf = new PageSalesforce();
 		
-		User Luccas = new User("Luccas Silva", "Luccas.@gmail.com", "Developer", "99999999999", "RM:552890");
-		User Burno = new User("Burno Burian", "Burno.@gmail.com", "Developer", "99999999999", "RM:552863");
-		User Nathalia = new User("Nathalia Freire", "Nathalia.@gmail.com", "Developer", "99999999999", "RM:553233");
+		LandingPage landingpage = new LandingPage();
+		Produtos produtos = new Produtos();
+		Industrias industrias = new Industrias();
+		Aprendizado aprendizado = new Aprendizado();
+		Suporte suporte = new Suporte();
+		Empresa empresa = new Empresa();
+		
+		
+		
+		
 		
 		User user = new User();
 		
-		System.out.println("\n # Salesforce X HighTech #");
-		System.out.println("  ----------------------- ");
-		System.out.println("     Cadastre-se.\n");
-		
-		System.out.print("  Nome: ");
-		String catastro = sc.nextLine();
-		user.setName(catastro);
-		
-		do {
-			System.out.print("  Email: ");
-			catastro = sc.nextLine();
-			user.setEmail(catastro);
-			if(user.validarEmail() == false) {
-				System.out.println("  Email Invalido.\n");
-			}
-		} while (user.validarEmail() != true);
-		
-		
-		System.out.print("  Cargo: ");
-		catastro = sc.nextLine();
-		user.setCargo(catastro);
-		do {
-			System.out.print("  Phone: ");
-			catastro = sc.nextLine();
-			user.setPhone(catastro);
-			if(user.validarPhone() == false) {
-				System.out.println("  Phone Invalido.\n");
-			}
-		} while (user.validarPhone() != true);
-		
-		System.out.print("  Password: ");
-		catastro = sc.nextLine();
-		user.setPassword(catastro);
-	
 		char menu = 's';
 		do {
 			System.out.println("\n # Salesforce X HighTech #");
 			System.out.println("  ----------------------- ");
-			System.out.println("  -   (1) LandingPage   -");
-			System.out.println("  -   (2) Produtos      -");
-			System.out.println("  -   (3) Industrias    -");
-			System.out.println("  -   (4) Aprendizado   -");
-			System.out.println("  -   (5) Suporte       -");
-			System.out.println("  -   (6) Empresa       -");
-			System.out.println("  -   (7) Meus Dados    -");
+			System.out.println("  -   (1) Cadastrar-se  -");
+			System.out.println("  -   (2) Meus Dados    -");
+			System.out.println("  ----------------------- ");
+			System.out.println("  -   (3) LandingPage   -");
+			System.out.println("  -   (4) Produtos      -");
+			System.out.println("  -   (5) Industrias    -");
+			System.out.println("  -   (6) Aprendizado   -");
+			System.out.println("  -   (7) Suporte       -");
+			System.out.println("  -   (8) Empresa       -");
 			System.out.println("  -   (0) Sair          -");
 			System.out.println("  ----------------------- ");
 			
 			System.out.print("    Escolha uma Opção: ");
 			menu = sc.next().toLowerCase().charAt(0);
+			
 			if(menu == '1') {
-				System.out.println("\n"+ psf.LandingPage());
+				user.validarNome();
+				user.validarEmail();
+				user.validarCPF();
+				user.validarCargo();
+				user.validarPhone();
+				user.validarSenha();	
 			}
+			
 			else if(menu == '2') {
-				System.out.println("\n"+ psf.Produtos());
+				if(user.getName() != null) {
+					System.out.print(user.toString()+"\n");	
+				}
+				else {
+					System.out.print("\n    Erro de Cadastro não Realizado.\n");	
+				}
 			}
+			
 			else if(menu == '3') {
-				System.out.println("\n"+ psf.Industrias());
+				System.out.print("\n"+ landingpage.conteudo());
 			}
+			
 			else if(menu == '4') {
-				System.out.println("\n"+ psf.Aprendizado());
+				System.out.print("\n"+ produtos.conteudo());
+				
 			}
+			
 			else if(menu == '5') {
-				System.out.println("\n"+ psf.Suporte());
+				System.out.print("\n"+ industrias.conteudo());
+				
 			}
+			
 			else if(menu == '6') {
-				System.out.println("\n"+ psf.Empresa());
+				System.out.print("\n"+ aprendizado.conteudo());	
 			}
+			
 			else if(menu == '7') {
-				System.out.println("\n"+ user.toString());	
+				System.out.print("\n"+ suporte.conteudo());
 			}
+			
+			else if(menu == '8') {
+				System.out.print("\n"+ empresa.conteudo());
+			}
+			
 			else if(menu == '0') {
 				System.out.print("\n     Continuar(s/n): ");
 				menu = sc.next().toLowerCase().charAt(0);
@@ -95,11 +98,13 @@ public class Program {
 			
 		} while (menu != 's');
 		System.out.println("\n Obrigado por usar o nosso Sistema.\n");
-		System.out.println("    #        Dev Team       #");
-		System.out.println("    -------------------------");
-		System.out.printf("    # %s %s #\n",Luccas.getName(), Luccas.getPassword());
-		System.out.printf("    # %s %s #\n",Burno.getName(), Burno.getPassword());
-		System.out.printf("    # %s %s #\n",Nathalia.getName(), Nathalia.getPassword());
+		System.out.println("            	Dev Team       ");
+		System.out.println("  #------------------------------------#");
+		System.out.println("  | Nome: Luccas Silva    | RM: 552890 | ");
+		System.out.println("  | Nome: Burno Burian    | RM: 552863 |");
+		System.out.println("  | Nome: Nathalia Freire | RM: 553233 |");
+		System.out.println("  #------------------------------------#");
+	
 		
 
 		sc.close();
