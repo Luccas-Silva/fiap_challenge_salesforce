@@ -4,7 +4,10 @@
 Decidimos desenvolver um sistema de registro focado na classe "User", incorporando atributos cruciais como nome, e-mail, CPF, telefone e senha, além de outros elementos essenciais. O objetivo principal é possibilitar a coleta e validação eficientes dos dados do usuário. Com o intuito de aprimorar a experiência do usuário, elaboramos um menu intuitivo e funcional que simplifica a navegação, oferecendo acesso fácil às informações das páginas do Salesforce.
 
 ## Fluxo de uso do console
-![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/dc8f1be2-0cc1-414e-b146-0e9586cf657f)
+<div align="center">
+  
+  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/dc8f1be2-0cc1-414e-b146-0e9586cf657f)
+</div>
 
 ## Diagrama de Classes
 <div align="center">
