@@ -6,12 +6,12 @@ Decidimos desenvolver um sistema de registro focado na classe "User", incorporan
 ## Fluxo de uso do console
 <div align="center">
 
-  ![Alt text](diagramas\console.png)
+  ![Alt text](diagramas/console.png)
 </div>
 
 ## Diagrama de Classes
 <div align="center">
   
-  ![Alt text](diagramas\User.png)
-  ![Alt text](diagramas\peges.png)
+  ![Alt text](diagramas/User.png)
+  ![Alt text](diagramas/peges.png)
 </div>
