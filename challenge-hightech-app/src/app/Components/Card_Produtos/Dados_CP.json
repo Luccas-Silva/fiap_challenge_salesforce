@@ -1,0 +1,94 @@
+[
+    {
+        "id" : 1,
+        "src" : "/assets/Produtos_Icons/Empresas.svg",
+        "alt": "icon Pequenas Empresas",
+        "name" : "Pequenas Empresas",
+        "text" : "Comece em questão de minutos com ferramentas simples para desenvolver seus negócios."
+    },
+    {
+        "id" : 2,
+        "src" : "/assets/Produtos_Icons/Vendas.svg",
+        "alt": "icon Vendas",
+        "name" : "Vendas",
+        "text" : "Conecte equipes, feche mais negócios e simplifique todo o seu processo de vendas."
+    },
+    {
+        "id" : 3,
+        "src" : "/assets/Produtos_Icons/Atendimento.svg",
+        "alt": "icon Atendimento e Serviços",
+        "name" : "Atendimento e Serviços",
+        "text" : "Crie, otimize e personalize facilmente campanhas e jornadas."
+    },
+    {
+        "id" : 4,
+        "src" : "/assets/Produtos_Icons/Marketing.svg",
+        "alt": "icon Marketing",
+        "name" : "Marketing",
+        "text" : "Crie, otimize e personalize facilmente campanhas e jornadas."
+    },
+    {
+        "id" : 5,
+        "src" : "/assets/Produtos_Icons/Commerce.svg",
+        "alt": "icon Commerce",
+        "name" : "Commerce",
+        "text" : "Engaje compradores online e na loja com comércio B2C e B2B."
+    },
+    {
+        "id" : 6,
+        "src" : "/assets/Produtos_Icons/Tableau.svg",
+        "alt": "icon Tableau",
+        "name" : "Tableau",
+        "text" : "Obtenha insights poderosos a partir de qualquer dado, a qualquer momento e em qualquer lugar."
+    },
+    {
+        "id" : 7,
+        "src" : "/assets/Produtos_Icons/MuleSoft.svg",
+        "alt": "icon MuleSoft",
+        "name" : "MuleSoft",
+        "text" : "Conecte todos os aplicativos, dados ou dispositivos, na nuvem ou no local."
+    },
+    {
+        "id" : 8,
+        "src" : "/assets/Produtos_Icons/Slack.svg",
+        "alt": "icon Slack",
+        "name" : "Slack",
+        "text" : "Conecte toda a sua equipe e seus dados com apps construídos em cliques, e não códigos."
+    },
+    {
+        "id" : 9,
+        "src" : "/assets/Produtos_Icons/Plataforma.svg",
+        "alt": "icon Plataforma",
+        "name" : "Plataforma",
+        "text" : "Conecte toda a sua equipe e seus dados com apps construídos em cliques, e não códigos."
+    },
+    {
+        "id" : 10,
+        "src" : "/assets/Produtos_Icons/Sustentabilidade.svg",
+        "alt": "icon Sustentabilidade",
+        "name" : "Sustentabilidade",
+        "text" : "Com Net Zero agora com a plataforma de gestão de sustentabilidade nº 1."
+    },
+    {
+        "id" : 11,
+        "src" : "/assets/Produtos_Icons/Indústrias.svg",
+        "alt": "icon Indústrias",
+        "name" : "Indústrias",
+        "text" : "Enfrente os maiores desafios do seu setor com uma solução sob medida."
+    },
+    {
+        "id" : 12,
+        "src" : "/assets/Produtos_Icons/Sucesso.svg",
+        "alt": "icon Sucesso",
+        "name" : "Sucesso",
+        "text" : "Conecte toda a sua equipe e seus dados com apps construídos em cliques, e não códigos."
+    },
+    {
+        "id" : 13,
+        "src" : "/assets/Produtos_Icons/Work.svg",
+        "alt": "icon Work.com",
+        "name" : "Work.com",
+        "text" : "Obtenha orientação, dados e soluções de especialistas para ajudar sua empresa a reabrir com segurança."
+    }
+    
+]
