@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <>
       <h1>Landing page</h1>
+
+      
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed velit id diam laoreet congue. Sed eleifend, purus in pretium venenatis, lectus justo facilisis velit, id finibus urna risus ut enim. Proin sodales velit vitae nibh mattis vestibulum. Nulla eros mauris, suscipit in velit vel, pharetra laoreet dui. Ut tincidunt enim et aliquam ultricies. Sed eget orci vulputate nibh aliquam malesuada. Sed consectetur risus in dapibus congue. Suspendisse eget porta lacus. Nunc lacinia vitae purus id maximus. Maecenas sed erat venenatis, viverra odio eget, faucibus diam. In tincidunt lorem nec lectus dapibus bibendum. Quisque egestas tempor purus, vitae efficitur tortor sagittis non. Vestibulum nec imperdiet ante. Duis at viverra eros, sed gravida ligula.
 
 Praesent ex elit, lobortis et malesuada sed, pharetra quis ex. Ut ut porttitor nunc. Donec venenatis pulvinar justo id feugiat. Aliquam sed mi sit amet erat lacinia elementum quis hendrerit sem. Mauris elementum neque ligula, et luctus eros imperdiet ut. Nam a blandit quam, in dictum nibh. Donec at euismod sem. Morbi ex ipsum, venenatis nec imperdiet a, semper non tellus. Donec mollis lacinia elit. Vestibulum eu neque quis sapien condimentum tempus. Aliquam iaculis orci ut ullamcorper vulputate. Proin finibus pharetra porttitor. Maecenas non euismod ipsum. Nullam vel dui eros.
