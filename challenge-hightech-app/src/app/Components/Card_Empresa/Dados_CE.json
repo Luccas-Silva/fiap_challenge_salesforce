@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "name" : "Sobre a Salesforce",
+        "text" : "Descubra nossa história, nossos produtos e nossos valores."
+    },
+    {
+        "id" : 2,
+        "name" : "Nossos valores",
+        "text" : "Nossos valores incluem confiança, sucesso do cliente, inovação, igualdade e sustentabilidade."
+    },
+    {
+        "id" : 3,
+        "name" : "Nosso impacto",
+        "text" : "Nós sabemos que fazer negócios é a maior forma de gerar transformações. Veja como estamos construindo um futuro melhor."
+    },
+    {
+        "id" : 4,
+        "name" : "Carreiras",
+        "text" : "Inicie uma nova jornada conosco. Comece uma carreira aqui na Salesforce."
+    },
+    {
+        "id" : 5,
+        "name" : "Notícias",
+        "text" : "Fique a par dos anúncios e notícias mais fresquinhos."
+    },
+    {
+        "id" : 6,
+        "name" : "Mais marcas da Salesforce",
+        "text" : "Mais marcas da Salesforce incluem Tableau, Slack, MuleSoft, Heroku e Salesforce.org."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "name" : "Aprenda no Trailhead",
+        "text" : "Desenvolva suas habilidades para o futuro a partir de qualquer lugar com o Trailhead, nossa plataforma gratuita e online de ensino."
+    },
+    {
+        "id" : 2,
+        "name" : "Eventos & Experiências",
+        "text" : "Participe de eventos virtuais da Salesforce."
+    },
+    {
+        "id" : 3,
+        "name" : "Histórias de Clientes",
+        "text" : "Explore todos os Trailblazers que estão tendo sucesso com o Salesforce."
+    },
+    {
+        "id" : 4,
+        "name" : "O 360 Blog",
+        "text" : "Aprenda a se adiantar às tendências e turbine seus relacionamentos profissionais."
+    },
+    {
+        "id" : 5,
+        "name" : "Por tópico",
+        "text" : "Encontre produtos e recursos projetados para ajudar todo mundo a se reunir de forma segura e trabalhar a partir de qualquer local."
+    },
+    {
+        "id" : 6,
+        "name" : "Por tipo de Conteúdo",
+        "text" : "Envolva-se com recursos especializados e infinitos – em qualquer formato que você preferir."
+    },
+    {
+        "id" : 7,
+        "name" : "Por função",
+        "text" : "Explore os recursos mais interessantes para você, sua equipe e sua organização."
+    },
+    {
+        "id" : 8,
+        "name" : "Por indústria",
+        "text" : "Envolva-se com recursos especializados e infinitos – em qualquer formato que você preferir."
+    }
+]

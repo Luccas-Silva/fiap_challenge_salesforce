@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "name" : "Ajuda e documentação",
+        "text" : "Precisando de ajuda? Registre casos, encontre documentos e muito mais. Receba todo o suporte que você precisar, a qualquer momento."
+    },
+    {
+        "id" : 2,
+        "name" : "Comunidades",
+        "text" : "Descubra uma rede global de Trailblazers e conecte-se com eles de qualquer lugar. Colabore, aprenda e gerencie sua empresa parceira enquanto contribui para construir o futuro da Salesforce através do IdeaExchange."
+    },
+    {
+        "id" : 3,
+        "name" : "Serviços e planos",
+        "text" : "Cumpra seus objetivos com nossos parceiros e especialistas em sucesso do cliente."
+    }
+]
