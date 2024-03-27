@@ -1,0 +1,19 @@
+
+.items_Organograma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10rem;
+}
+
+.items_Organograma h1 {
+    font-size: 5rem;
+}
+
+.items_Organograma img {
+    width: 100%;
+    height: 100%;
+    margin-top: 7rem;
+}
