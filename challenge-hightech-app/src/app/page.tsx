@@ -1,31 +1,65 @@
 'use client'
 import Image from "next/image";
+import "./page.css";
 
 export default function Home() {
   return (
     <>
-      <h1>Landing page</h1>
+      <section className="Home_section">
+        <div className="Home_text">
+          <h1>Entregue sucesso agora com o Salesforce Customer 360.</h1>
+          <p>Analisamos minuciosamente uma ampla gama de tópicos na vastidão da Internet, com o objetivo de identificar tendências em ascensão.</p>
+        </div>
+        <Image src={"/assets/landing page 1.svg"} alt="" width={100} height={100} />
+      </section>
 
+      <section className="Home_section">
+        <Image src={"/assets/landing page 2.svg"} alt="" width={100} height={100} />
+        <div className="Home_text">
+          <h1>O que há de novo na Salesforce?</h1>
+          <p>Conheça o Salesforce Starter, o pacote de CRM simples e poderoso, projetado para expandir sua pequena empresa. Encontre uma solução de IA adaptada às suas necessidades de negócios e impulsione o crescimento da sua empresa.</p>
+        </div>
+      </section>
+
+      <section className="Home_section">
+        <div className="Home_text">
+          <h1>Experimente o Salesforce Starter Suite gratuitamente.</h1>
+          <p>Reúna marketing, vendas e atendimento em um único aplicativo. Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. Não é necessário cartão de crédito.</p>
+        </div>
+        <Image src={"/assets/landing page 3.svg"} alt="" width={100} height={100} />
+      </section>
+
+      <section className="Home_section">
+        <Image src={"/assets/landing page 4.svg"} alt="" width={100} height={100} />
+        <div className="Home_text">
+          <h1>Veja como os clientes da Salesforce se tornam empresas clientes.</h1>
+          <p>Saiba como o Salesforce ajuda você a trabalhar de maneira mais inteligente e a crescer com mais rapidez.</p>
+        </div>
+      </section>
+
+      <section className="Home_section">
+        <div className="Home_text">
+          <h1>Encontre inovações para qualquer setor de indústria.</h1>
+          <p>Seja qual for a sua indústria, oferecemos soluções para modernizar o seu negócio, economizar tempo e reduzir custos.</p>
+        </div>
+        <Image src={"/assets/landing page 5.svg"} alt="" width={100} height={100} />
+      </section>
+
+      <section className="Home_section">
+        <Image src={"/assets/landing page 6.svg"} alt="" width={100} height={100} />
+        <div className="Home_text">
+          <h1>O que é CRM?</h1>
+          <p>Aprenda tudo sobre o CRM, como unificar todas as suas equipes e como impulsionar o crescimento e a produtividade em toda a sua empresa.</p>
+        </div>
+      </section>
       
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed velit id diam laoreet congue. Sed eleifend, purus in pretium venenatis, lectus justo facilisis velit, id finibus urna risus ut enim. Proin sodales velit vitae nibh mattis vestibulum. Nulla eros mauris, suscipit in velit vel, pharetra laoreet dui. Ut tincidunt enim et aliquam ultricies. Sed eget orci vulputate nibh aliquam malesuada. Sed consectetur risus in dapibus congue. Suspendisse eget porta lacus. Nunc lacinia vitae purus id maximus. Maecenas sed erat venenatis, viverra odio eget, faucibus diam. In tincidunt lorem nec lectus dapibus bibendum. Quisque egestas tempor purus, vitae efficitur tortor sagittis non. Vestibulum nec imperdiet ante. Duis at viverra eros, sed gravida ligula.
-
-Praesent ex elit, lobortis et malesuada sed, pharetra quis ex. Ut ut porttitor nunc. Donec venenatis pulvinar justo id feugiat. Aliquam sed mi sit amet erat lacinia elementum quis hendrerit sem. Mauris elementum neque ligula, et luctus eros imperdiet ut. Nam a blandit quam, in dictum nibh. Donec at euismod sem. Morbi ex ipsum, venenatis nec imperdiet a, semper non tellus. Donec mollis lacinia elit. Vestibulum eu neque quis sapien condimentum tempus. Aliquam iaculis orci ut ullamcorper vulputate. Proin finibus pharetra porttitor. Maecenas non euismod ipsum. Nullam vel dui eros.
-
-Donec condimentum mi quis luctus bibendum. Quisque molestie massa a vestibulum aliquam. Proin eu tellus nec nulla laoreet porta at in augue. Sed gravida varius orci, gravida gravida nulla maximus at. Morbi egestas, libero in eleifend viverra, justo nunc lacinia lectus, vel efficitur ex dolor in augue. Duis pellentesque ligula libero, ac sollicitudin est mattis eu. Mauris ex libero, vulputate quis risus at, malesuada vulputate mauris. Maecenas vulputate, lacus eget pharetra posuere, quam felis consectetur metus, sed ullamcorper erat augue a elit. Vestibulum vel efficitur diam. Fusce eget tincidunt lorem, nec pellentesque quam. Morbi hendrerit dignissim mattis. Nullam sapien tellus, maximus nec finibus nec, gravida et est.
-
-Mauris eget posuere ante, sit amet tempus metus. Vivamus id euismod eros, sed interdum ex. Mauris eget vulputate quam, ut eleifend augue. Integer sed ante in neque tincidunt aliquam ac ut arcu. Maecenas in aliquet augue, vitae cursus tortor. Sed pellentesque condimentum est ac imperdiet. Quisque maximus nibh elit, eu tempus magna condimentum ac. Praesent tempus magna non fringilla ullamcorper. Fusce sodales lorem non purus condimentum luctus. Cras ex magna, hendrerit et ante non, convallis finibus mauris.
-
-Sed auctor ac turpis posuere lacinia. Sed aliquet imperdiet hendrerit. Fusce in purus risus. Donec lobortis, massa sit amet accumsan aliquet, neque nisi malesuada lectus, eu fringilla nisl ex ac nibh. In egestas sem in sapien fermentum, laoreet posuere quam tincidunt. Duis sed est non nunc malesuada viverra. Integer nec enim orci. Praesent non ex a tortor efficitur rutrum sed at lacus. Sed a lectus vitae sapien tempus imperdiet. Quisque vel velit mollis, rhoncus ligula vel, mattis libero.
-
-Aenean sit amet molestie dolor, in ultrices dui. Phasellus pulvinar elit facilisis erat elementum, in tristique magna tincidunt. Vivamus cursus mi eu posuere suscipit. Etiam sed consectetur felis. Integer ornare quam nulla, eu consequat libero maximus sed. Praesent et luctus libero, vel porttitor urna. Nam ligula tellus, placerat vel felis et, porta dignissim dui. Nulla consectetur erat vel erat finibus, interdum mollis magna pharetra. Ut eu egestas arcu.
-
-Etiam condimentum metus sit amet risus maximus faucibus. Ut a tincidunt purus. Morbi ac faucibus ligula. Morbi blandit viverra quam vel mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis elit sit amet turpis sodales, nec condimentum nisl elementum. Integer neque est, commodo vel metus sit amet, facilisis lacinia elit. Duis venenatis sapien et fermentum hendrerit. Integer ut pellentesque lectus, eget placerat nisi. Curabitur nec vulputate elit, eget hendrerit metus. Nunc auctor ipsum nec justo fringilla, a mollis ipsum placerat. Nullam dictum vestibulum tristique. Pellentesque volutpat id sem vel cursus.
-
-Quisque a mollis mauris. Nunc congue metus eu risus pretium, ut tempor purus convallis. Nunc sodales metus felis, luctus efficitur nulla euismod non. In hac habitasse platea dictumst. Donec vitae libero ac purus varius consequat ac eget dolor. Morbi quis consequat magna, a scelerisque magna. Praesent condimentum odio imperdiet ante laoreet, vitae dignissim lorem dapibus. Quisque non commodo risus. Aenean nisi erat, lacinia in tristique a, varius quis mi. Aenean iaculis porta purus, eget aliquet mauris porttitor quis. Nunc a risus eget mauris interdum congue. Aenean dictum dignissim eleifend.
-
-Phasellus pharetra vel lacus venenatis eleifend. Donec accumsan tincidunt risus ut aliquet. Maecenas at congue justo. Aenean fringilla ex ligula, eget semper arcu sodales porttitor. Praesent condimentum orci at ligula mattis convallis. Donec ultrices urna vitae tempus imperdiet. Praesent tellus lectus, condimentum sed mi et, vestibulum feugiat risus. Fusce tincidunt ullamcorper magna, eget lobortis velit sagittis sed. Phasellus in neque lacinia, luctus ex sit amet, ultrices mi. Sed lacinia rutrum sodales. Integer eget mollis sapien, posuere gravida risus. Aliquam magna eros, sodales non pulvinar et, molestie sit amet mi. Aenean aliquam, justo nec consequat suscipit, lacus sapien viverra neque, consectetur sollicitudin sem libero faucibus tortor. Duis malesuada scelerisque tellus, ac sollicitudin ante. Sed eget enim vel sem lobortis molestie.
-
-Donec lobortis, ante eu aliquam malesuada, neque tortor lobortis eros, a efficitur eros odio eget libero. Aenean feugiat velit eu nisi ullamcorper sagittis. Curabitur eget libero suscipit libero ornare faucibus. Duis eu lobortis nulla. Suspendisse id erat mattis, aliquet justo eu, dictum magna. Duis et arcu dictum, tempor risus vel, eleifend ipsum. Donec luctus lacus nisl, a laoreet nisi volutpat ac. In eget neque id leo dignissim aliquam. Suspendisse quis ex iaculis, semper augue non, rhoncus enim. Vestibulum placerat nec lorem et porta. Phasellus vel sagittis metus.</p>
+      <section className="Home_section">
+        <div className="Home_text">
+          <h1>Aprenda habilidades valiosas gratuitamente com o Trailhead.</h1>
+          <p>Siga os caminhos de aprendizado guiados e aprenda na prática as habilidades interpessoais, digitais e do Salesforce de qualquer lugar.</p>
+        </div>
+        <Image src={"/assets/landing page 7.svg"} alt="" width={100} height={100} />
+      </section>
     </>
   );
 }
