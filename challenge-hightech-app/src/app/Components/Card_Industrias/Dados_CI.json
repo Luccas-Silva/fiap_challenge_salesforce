@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "src" : "/assets/Industrias_Icons/Serviços Financeiros.svg",
+        "alt": "icon Serviços Financeiros",
+        "name" : "Serviços Financeiros"
+    },
+    {
+        "id" : 2,
+        "src" : "/assets/Industrias_Icons/Saúde & Ciências da Vida.svg",
+        "alt": "icon Saúde Ciências da Vida",
+        "name" : "Saúde & Ciências da Vida"
+    },
+    {
+        "id" : 3,
+        "src" : "/assets/Industrias_Icons/Comunicação.svg",
+        "alt": "icon Comunicação",
+        "name" : "Comunicação"
+    },
+    {
+        "id" : 4,
+        "src" : "/assets/Industrias_Icons/Bens de Consumo.svg",
+        "alt": "icon Bens de Consumo",
+        "name" : "Bens de Consumo"
+    },
+    {
+        "id" : 5,
+        "src" : "/assets/Industrias_Icons/Setor Público.svg",
+        "alt": "icon Setor Público",
+        "name" : "Setor Público"
+    },
+    {
+        "id" : 6,
+        "src" : "/assets/Industrias_Icons/Retail.svg",
+        "alt": "icon Retail",
+        "name" : "Retail"
+    },
+    {
+        "id" : 7,
+        "src" : "/assets/Industrias_Icons/Manufatura.svg",
+        "alt": "icon Manufatura",
+        "name" : "Manufatura"
+    },
+    {
+        "id" : 8,
+        "src" : "/assets/Industrias_Icons/Mídia.svg",
+        "alt": "icon Mídia",
+        "name" : "Mídia"
+    }
+]
