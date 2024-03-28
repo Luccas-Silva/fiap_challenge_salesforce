@@ -1,0 +1,48 @@
+.section_Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_Login h1 {
+    font-size: 5rem;
+}
+
+.form_Login {
+    margin: 5rem 0rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.input-box input {
+    height: 7rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 3rem;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.50);
+ }
+
+.input-box label  a {
+    margin-left: 7rem;
+    color: #ffffff;
+}
+
+
+
+.login {
+    margin-top: 1rem;
+}
+

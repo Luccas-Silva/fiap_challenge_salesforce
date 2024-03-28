@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 
 .Home_section img {
@@ -34,6 +34,11 @@
 }
 
 @media (max-width: 900px) {
+    
+    .Home_section {
+        margin-bottom: 10rem;
+    }
+
     .Home_section h1 {
         font-size: 3rem;
     }

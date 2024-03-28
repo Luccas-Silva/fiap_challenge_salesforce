@@ -60,6 +60,7 @@ export default function Home() {
         </div>
         <Image src={"/assets/landing page 7.svg"} alt="" width={100} height={100} />
       </section>
+
     </>
   );
 }
