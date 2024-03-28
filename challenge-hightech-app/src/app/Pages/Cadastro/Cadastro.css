@@ -1,15 +1,16 @@
-.section_Login {
+.section_Cadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.section_Login h1 {
+.section_Cadastro h1 {
     font-size: 5rem;
 }
 
-.form_Login {
+.form_Cadastro {
+    width: 45rem;
     margin: 5rem 0rem;
 }
 
@@ -35,14 +36,13 @@
     color: rgba(255, 255, 255, 0.50);
  }
 
-
 .input-box label  a {
-    margin-left: 15rem;
+    margin-left: 7rem;
     color: #ffffff;
 }
+
 
 
 .login {
     margin-top: 1rem;
 }
-
