@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class User {
 	
+	private int id;
 	private String name;
 	private String email;
 	private String cpf; 
@@ -13,10 +14,12 @@ public class User {
 	
 	Scanner sc = new Scanner(System.in);
 	
+	
 	//Construtores
 	public User() {
 	}
-	public User(String name, String email, String cpf, String cargo, String phone, String password) {
+	public User(int id, String name, String email, String cpf, String cargo, String phone, String password) {
+		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.cpf = cpf;
@@ -25,7 +28,15 @@ public class User {
 		this.password = password;
 	}
 	
+	
 	//Getters e Setters
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -194,7 +205,8 @@ public class User {
 	//Print dos Dados de Usuário
 	@Override
 	public String toString() {
-		return "\n    Name: " + name 
+		return "\n    Id: " + id
+				+ "\n    Name: " + name
 				+ "\n    email: " + email 
 				+ "\n    cpf: " + cpf 
 				+ "\n    cargo: " + cargo 
