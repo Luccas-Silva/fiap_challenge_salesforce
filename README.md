@@ -1,11 +1,8 @@
 # Fiap Challenge Salesforce
 
 ## Objetivo do Projeto
-Nosso objetivo dentro do projeto é impressionar a Salesforce com um novo site  montado pensando na satisfação dos clientes e usuários frequentes da empresa, incluindo novas ferramentas de acessibilidade que iremos implantar com base em reclamações feitas pelos próprios usuários da plataforma Salesforce, a ideia é buscar o que vem sendo um problema para os usuários e incrementar dentro da nossa versão do site, buscando assim total satisfação dos clientes e trazendo uma experiência agradável durante o uso da plataforma Salesforce.
+Nosso foco no projeto é desenvolver um novo site que não apenas impressione, mas que também seja cuidadosamente concebido para atender às necessidades e desejos dos nossos clientes e usuários frequentes. Estamos comprometidos em incluir novas ferramentas de acessibilidade, as quais serão implementadas com base no feedback e nas reclamações dos próprios usuários da plataforma. Nosso objetivo é abordar os problemas identificados pelos usuários e integrá-los à nossa versão do site, visando alcançar a plena satisfação dos clientes e proporcionar uma experiência agradável durante a utilização da plataforma.
 
-## Descrição da Parte em Front-end
-
-## Descrição da Parte em Back-end
 
 ## Tecnologias
 - `HTML`
