@@ -1,6 +1,6 @@
 # Fiap Challenge Salesforce
 
-## Objetivo do Projeto
+### Objetivo do Projeto
 Nosso foco no projeto é desenvolver um novo site que não apenas impressione, mas que também seja cuidadosamente concebido para atender às necessidades e desejos dos nossos clientes e usuários frequentes. Estamos comprometidos em incluir novas ferramentas de acessibilidade, as quais serão implementadas com base no feedback e nas reclamações dos próprios usuários da plataforma. Nosso objetivo é abordar os problemas identificados pelos usuários e integrá-los à nossa versão do site, visando alcançar a plena satisfação dos clientes e proporcionar uma experiência agradável durante a utilização da plataforma.
 
 
