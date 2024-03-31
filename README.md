@@ -22,7 +22,9 @@ Nosso objetivo dentro do projeto é impressionar a Salesforce com um novo site  
 
 ## Diagrama de Classes
 <div align="center">
-  
+
+  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/c51a2e3c-359f-47df-9bec-8fba3e1b5efb)
+  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/5fc58539-d317-42cd-acf7-8856c50deb5b)
 </div>
 
 ## Modelagem do Banco de Dados
