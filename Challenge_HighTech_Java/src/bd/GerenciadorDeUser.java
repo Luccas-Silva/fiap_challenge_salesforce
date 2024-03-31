@@ -17,7 +17,7 @@ public class GerenciadorDeUser {
 	
 	
 	public GerenciadorDeUser() throws SQLException{
-		//Chamando o driver para usar o sql
+		//Chamando o driver SQL
 		OracleDataSource ods = new OracleDataSource(); 
 		
 		//Configurando a URL

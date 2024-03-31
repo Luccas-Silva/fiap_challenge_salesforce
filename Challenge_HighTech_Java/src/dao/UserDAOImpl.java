@@ -12,8 +12,6 @@ public class UserDAOImpl implements UserDAO{
 	public UserDAOImpl() {
 		users = new ArrayList<>();
 		users.add(new User(1, "Luccas Silva", "luccas.fiap@gmail.com", "12345678910", "Developer", "11912345678", "RM-552890"));
-		users.add(new User(2, "Burno Burian", "burno.fiap@gmail.com", "17192047058", "Developer", "11932683852", " RM-552863"));
-		users.add(new User(3, "Nathalia Freire", "nathalia.fiap@gmail.com", "46568333042", "Developer", "11932683852", "RM-553233"));
 	}
 	
 	@Override

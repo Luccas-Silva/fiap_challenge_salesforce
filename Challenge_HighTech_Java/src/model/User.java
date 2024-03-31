@@ -96,7 +96,7 @@ public class User {
 			}		
 			
 			if(flag != true) {
-				System.out.println("  Erro em Salvar Nome.");
+				System.err.println("  Erro em Salvar Nome.");
 			}
 		} while (flag != true);
 	}
@@ -115,7 +115,7 @@ public class User {
 			}
 			
 			if(flag != true) {
-				System.out.println("  Email Invalido.\n");
+				System.err.println("  Email Invalido.\n");
 			}
 		} while (flag != true);
 	}
@@ -134,7 +134,7 @@ public class User {
 			}
 			
 			if(flag != true) {
-				System.out.println("  CPF Invalido.\n");
+				System.err.println("  CPF Invalido.\n");
 			}
 		} while (flag != true);
 
@@ -155,7 +155,7 @@ public class User {
 			}		
 			
 			if(flag != true) {
-				System.out.println("  Erro em Salvar Cargo.\n");
+				System.err.println("  Erro em Salvar Cargo.\n");
 			}
 		} while (flag != true);
 	}
@@ -174,7 +174,7 @@ public class User {
 			}
 			
 			if(flag != true) {
-				System.out.println("  Phone Invalido.\n");
+				System.err.println("  Phone Invalido.\n");
 			}
 		} while (flag != true);
 		
@@ -196,7 +196,7 @@ public class User {
 			}		
 			
 			if(flag != true) {
-				System.out.println("  Erro em Criar Senha.\n");
+				System.err.println("  Erro em Criar Senha.\n");
 			}
 		} while (flag != true);
 	}
