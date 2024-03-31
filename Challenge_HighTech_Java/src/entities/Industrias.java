@@ -24,6 +24,4 @@ public class Industrias implements PageSalesforce {
 			    +"\n    Tecnologia                 >\n";
 	}
 	
-	 
-
 }

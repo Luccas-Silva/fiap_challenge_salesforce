@@ -17,20 +17,22 @@ public class GerenciadorDeUser {
 	
 	
 	public GerenciadorDeUser() throws SQLException{
-		//Chamando o driver SQL
+		
+		//Chamando Driver SQL
 		OracleDataSource ods = new OracleDataSource(); 
 		
-		//Configurando a URL
+		//Configurando URL
 		ods.setURL(url);
 		
-		//Configurando o usuario
+		//Configurando Usuario
 		ods.setUser(Credenciais.user);
 		
-		//Configurando a senha
+		//Configurando Senha
 		ods.setPassword(Credenciais.pwd);
 		
-		//obtendo uma conexão 
+		//Obtendo Conexão 
 		conexão = ods.getConnection();	
+		
 	}
 	
 	
@@ -40,7 +42,7 @@ public class GerenciadorDeUser {
 	
 	
 	public boolean excluir(int id) {
-		String sql = "DELETE FROM clientes WHERE id = ?";
+		String sql = "DELETE FROM Usuario WHERE id_usua = ?";
 			
 		try {
 			PreparedStatement ps = conexão.prepareStatement(sql);
@@ -56,13 +58,17 @@ public class GerenciadorDeUser {
 	
 	
 	public void atualizar(User user) {
-		String sql = "UPDATE clientes SET nome = ?, sobrenome = ? WHERE id = ?";
+		String sql = "UPDATE Usuario SET cpf = ?, password = ?, email = ?, name = ?, cargo = ?, phone = ?, WHERE id_usua = ?";
 			
 		try {
 			PreparedStatement ps = conexão.prepareStatement(sql);
-			ps.setString(1,user.getName());
-			ps.setString(2,user.getCpf());
-			ps.setInt(3, user.getId());
+			ps.setString(1,user.getCpf());
+			ps.setString(2,user.getPassword());
+			ps.setString(3,user.getEmail());
+			ps.setString(4,user.getName());
+			ps.setString(5,user.getCargo());
+			ps.setString(6,user.getPhone());
+			ps.setInt(7, user.getId());
 			ps.execute();
 		} catch (SQLException e) {
 			System.err.println("Erro ao atualizar o cliente - atualizar()");
@@ -74,18 +80,23 @@ public class GerenciadorDeUser {
 	public List<User> listar(){
 		
 		List<User> clientes = new ArrayList<User>();
-		String sql = "SELECT * FROM cliente";
+		String sql = "SELECT * FROM Usuario";
 			
 		try {
 			PreparedStatement ps = conexão.prepareStatement(sql);
 			ResultSet rs = ps.executeQuery();
 				
 			while(rs.next()) {
-				int id = rs.getInt(0); //acesso pelo index
-				String nome = rs.getString(1); //acesso pelo index
-				String sobrenome =  rs.getString("sobrenome");//acesso pelo label
+				int id = rs.getInt(0); 
+				String Cpf = rs.getString("cpf"); 
+				String Password =  rs.getString("password");
+				String Email = rs.getString("email"); 
+				String Name =  rs.getString("name");
+				String Cargo = rs.getString("cargo"); 
+				String Phone =  rs.getString("phone");
+				
 					
-				clientes.add(new User(id, nome, sobrenome, sobrenome, sobrenome, sobrenome, sobrenome));	
+				clientes.add(new User(id, Cpf, Password, Email, Name, Cargo, Phone));	
 			}
 				
 		} catch (SQLException e) {
