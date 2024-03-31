@@ -16,7 +16,17 @@ Nosso objetivo dentro do projeto é impressionar a Salesforce com um novo site  
 - `Figma`
 
 ## Design do Site
-
-## Modelagem do Banco de Dados
+<div align="center">
+  
+</div>
 
 ## Diagrama de Classes
+<div align="center">
+  
+</div>
+
+## Modelagem do Banco de Dados
+<div align="center">
+  
+  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/d6afab6f-36e4-4b6a-8b7b-52cf24055030)
+</div>
