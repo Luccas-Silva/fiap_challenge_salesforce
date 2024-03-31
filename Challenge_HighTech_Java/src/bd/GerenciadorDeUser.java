@@ -76,7 +76,7 @@ public class GerenciadorDeUser {
 		}
 	}
 		
-		
+	
 	public List<User> listar(){
 		
 		List<User> clientes = new ArrayList<User>();
