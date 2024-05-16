@@ -64,11 +64,12 @@ public class User {
 	
 	@Override
 	public String toString() {
-		return "\n    Name: " + name
-				+ "\n    email: " + email 
-				+ "\n    cpf: " + cpf 
-				+ "\n    cargo: " + cargo 
-				+ "\n    phone: " + phone
-				+ "\n    password: " + password;
+		return "\n Name: " + name
+				+ "\n Email: " + email 
+				+ "\n Cpf: " + cpf 
+				+ "\n Cargo: " + cargo 
+				+ "\n Phone: " + phone
+				+ "\n Password: " + password;
 	}
+	
 }
