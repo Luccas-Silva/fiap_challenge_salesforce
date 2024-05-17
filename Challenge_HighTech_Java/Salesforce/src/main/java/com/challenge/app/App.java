@@ -18,9 +18,9 @@ public class App {
 		User dev = new User("Luccas Silva", "luccas.silva@gmail.com", "12345678910", "Desenvolver", "12345678910", "Luccas@123");
 		
 		System.out.println(dev);
-		userservice.validarCPF(dev.getCpf());
-		userservice.validarEmail(dev.getEmail());
-		userservice.validarPhone(dev.getPhone());
+		System.out.println(" CPF: "+userservice.validarCPF(dev.getCpf()));
+		System.out.println(" Email: "+userservice.validarEmail(dev.getEmail()));
+		System.out.println(" Phone: "+userservice.validarPhone(dev.getPhone()));
 		
 		
 		

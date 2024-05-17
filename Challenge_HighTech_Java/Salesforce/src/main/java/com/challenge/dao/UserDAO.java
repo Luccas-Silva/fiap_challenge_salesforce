@@ -21,13 +21,14 @@ public class UserDAO {
 	
 	/*
 	* drop table User cascade constraints;
-	* create table User(
-	*  name varchar(45),
-	*  email varchar(45),
-	*  cpf varchar(11),
-	*  cargo varchar(45),
-	*  phone number(11),
-	*  password varchar(45));
+	* CREATE TABLE User (
+		name varchar(45) not null,
+		email varchar(45) unique,
+		cpf varchar(11) primary key,
+		cargo varchar(45),
+		phone number(11),
+		password varchar(45) not null
+	  )
 	*/
 	
 	public String Insert (User user) throws NumberFormatException, SQLException {
