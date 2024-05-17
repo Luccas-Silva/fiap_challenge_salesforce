@@ -13,11 +13,12 @@ public class UserBO {
 	
 	UserDAO userDAO = null;
 	
-	public void InserirBO(User user) throws ClassNotFoundException, SQLException {
+	public void InsertBO(User user) throws ClassNotFoundException, SQLException {
 		UserDAO userDAO = new UserDAO();
 		UserService userservice = new UserService();
+		
 		if(true == userservice.validarCPF(user.getCpf())) {
-			if(true == userservice.validarCPF(user.getEmail())) {
+			if(true == userservice.validarEmail(user.getEmail())) {
 				if(true == userservice.validarCPF(user.getPhone())) { userDAO.Insert(user); }
 				else { System.out.print("Insert: Error"); }
 			}
@@ -34,7 +35,7 @@ public class UserBO {
 		userDAO.Update(user);
 	}
 	
-	public List<User> Select () throws SQLException, ClassNotFoundException {
+	public List<User> SelectBO () throws SQLException, ClassNotFoundException {
 		UserDAO userDAO = new UserDAO();
 		return (ArrayList<User>) userDAO.Select();
 	}

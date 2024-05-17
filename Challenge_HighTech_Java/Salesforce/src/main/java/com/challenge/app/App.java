@@ -3,6 +3,7 @@ package com.challenge.app;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import com.challenge.bo.UserBO;
 import com.challenge.dao.UserDAO;
 import com.challenge.model.User;
 import com.challenge.service.UserService;
@@ -12,15 +13,18 @@ public class App {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Scanner sc = new Scanner(System.in);
 		
-		UserDAO dao = new UserDAO();
-		
+		UserBO bo = new UserBO();
 		UserService userservice = new UserService();
 		User dev = new User("Luccas Silva", "luccas.silva@gmail.com", "12345678910", "Desenvolver", "12345678910", "Luccas@123");
 		
 		System.out.println(dev);
+		
 		System.out.println(" CPF: "+userservice.validarCPF(dev.getCpf()));
 		System.out.println(" Email: "+userservice.validarEmail(dev.getEmail()));
 		System.out.println(" Phone: "+userservice.validarPhone(dev.getPhone()));
+		
+		
+		
 		
 		
 		

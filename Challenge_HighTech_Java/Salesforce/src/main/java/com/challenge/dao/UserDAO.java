@@ -19,6 +19,27 @@ public class UserDAO {
 		System.out.print(" Database Connection: Success");
 	}
 	
+	public String drop () throws SQLException {
+		PreparedStatement stmt = conexao.prepareStatement("drop table User cascade constraints;");
+		stmt.execute();
+		stmt.close();
+		return "drop: Success";
+	}
+	
+	public String CREATE () throws SQLException {
+		PreparedStatement stmt = conexao.prepareStatement("CREATE TABLE User (\r\n"
+				+ "		name varchar(45) not null,\r\n"
+				+ "		email varchar(45) unique,\r\n"
+				+ "		cpf varchar(11) primary key,\r\n"
+				+ "		cargo varchar(45),\r\n"
+				+ "		phone number(11),\r\n"
+				+ "		password varchar(45) not null\r\n"
+				+ "	  );");
+		stmt.execute();
+		stmt.close();
+		return "CREATE: Success";
+	}
+	
 	/*
 	* drop table User cascade constraints;
 	* CREATE TABLE User (
@@ -28,7 +49,7 @@ public class UserDAO {
 		cargo varchar(45),
 		phone number(11),
 		password varchar(45) not null
-	  )
+	  );
 	*/
 	
 	public String Insert (User user) throws NumberFormatException, SQLException {
