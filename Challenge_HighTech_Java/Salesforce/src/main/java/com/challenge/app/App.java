@@ -4,7 +4,6 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 import com.challenge.bo.UserBO;
-import com.challenge.dao.UserDAO;
 import com.challenge.model.User;
 import com.challenge.service.UserService;
 
