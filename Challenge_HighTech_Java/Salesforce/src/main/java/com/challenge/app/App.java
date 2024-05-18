@@ -15,17 +15,13 @@ public class App {
 		
 		UserBO bo = new UserBO();
 		UserService userservice = new UserService();
-		User dev = new User("Luccas Silva", "luccas.silva@gmail.com", "12345678910", "Desenvolver", "12345678910", "Luccas@123");
 		
+		User dev = new User("Luccas Silva", "luccas.silva@gmail.com", "12345678910", "Desenvolver", "12345678910", "Luccas@123");
 		System.out.println(dev);
 		
 		System.out.println(" CPF: "+userservice.validarCPF(dev.getCpf()));
 		System.out.println(" Email: "+userservice.validarEmail(dev.getEmail()));
 		System.out.println(" Phone: "+userservice.validarPhone(dev.getPhone()));
-		
-		
-		
-		
 		
 		
 		System.out.println("\n    Obrigado por usar o nosso Sistema. \n");
