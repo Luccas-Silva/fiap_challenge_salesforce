@@ -25,7 +25,6 @@ public class App {
 
 		bo.InsertBO(dev);
 		
-		
 		System.out.println("\n    Obrigado por usar o nosso Sistema. \n");
 		System.out.println("            	Dev Team       ");
 		System.out.println("  #------------------------------------#");
