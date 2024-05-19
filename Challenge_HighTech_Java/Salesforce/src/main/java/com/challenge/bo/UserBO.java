@@ -19,10 +19,14 @@ public class UserBO {
 		
 		if(true == userservice.validarCPF(user.getCpf())) {
 			if(true == userservice.validarEmail(user.getEmail())) {
-				if(true == userservice.validarCPF(user.getPhone())) { userDAO.Insert(user); }
+				if(true == userservice.validarCPF(user.getPhone())) { 
+					userDAO.Insert(user); 
+					}
 				else { System.out.print("Insert: Error"); }
 			}
+			else { System.out.print("Insert: Error"); }
 		}
+		else { System.out.print("Insert: Error"); }
 	}
 	
 	public void DeleteBO(String cpf) throws ClassNotFoundException, SQLException {

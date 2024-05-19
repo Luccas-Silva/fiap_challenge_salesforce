@@ -40,9 +40,7 @@ export default function Header() {
             </button>
           </div>
         </nav>
-      </header>
-      
-          
+      </header> 
     </>
   );
 }

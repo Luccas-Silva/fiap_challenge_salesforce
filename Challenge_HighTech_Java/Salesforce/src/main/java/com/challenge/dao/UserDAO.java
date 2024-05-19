@@ -19,14 +19,14 @@ public class UserDAO {
 		System.out.print(" Database Connection: Success");
 	}
 	
-	public String drop () throws SQLException {
+	public void Drop () throws SQLException {
 		PreparedStatement stmt = conexao.prepareStatement("drop table User cascade constraints;");
 		stmt.execute();
 		stmt.close();
-		return "drop: Success";
+		System.out.print(" Drop Table: Success");
 	}
 	
-	public String CREATE () throws SQLException {
+	public void Create () throws SQLException {
 		PreparedStatement stmt = conexao.prepareStatement("CREATE TABLE User (\r\n"
 				+ "		name varchar(45) not null,\r\n"
 				+ "		email varchar(45) unique,\r\n"
@@ -37,7 +37,7 @@ public class UserDAO {
 				+ "	  );");
 		stmt.execute();
 		stmt.close();
-		return "CREATE: Success";
+		System.out.print(" Create Table: Success");
 	}
 	
 	/*
@@ -52,7 +52,7 @@ public class UserDAO {
 	  );
 	*/
 	
-	public String Insert (User user) throws NumberFormatException, SQLException {
+	public void Insert (User user) throws NumberFormatException, SQLException {
 		PreparedStatement stmt = conexao.prepareStatement("insert into User values (?,?,?,?,?,?)");
 		stmt.setString(1, user.getName());
 		stmt.setString(2, user.getEmail());
@@ -62,18 +62,18 @@ public class UserDAO {
 		stmt.setString(6, user.getPassword());
 		stmt.execute();
 		stmt.close();
-		return "Insert: Success";
+		System.out.print(" Insert: Success");
 	}
 	
-	public String Delete (String cpf) throws SQLException {
+	public void Delete (String cpf) throws SQLException {
 		PreparedStatement stmt = conexao.prepareStatement("delete from User where cpf = ?");
 		stmt.setString(1, cpf);
 		stmt.execute();
 		stmt.close();
-		return "Delete: Success";
+		System.out.print(" Delete: Success");
 	}
 	
-	public String Update (User user) throws SQLException {
+	public void Update (User user) throws SQLException {
 		PreparedStatement stmt = conexao.prepareStatement("update User set name = ?, email = ?, cargo = ?, phone = ?, password = ?, where cpf = ?");
 		stmt.setString(1, user.getName());
 		stmt.setString(2, user.getEmail());
@@ -83,7 +83,7 @@ public class UserDAO {
 		stmt.setString(6, user.getCpf());
 		stmt.executeUpdate();
 		stmt.close();
-		return "Update: Success";
+		System.out.print(" Update: Success");
 	
 	}
 	

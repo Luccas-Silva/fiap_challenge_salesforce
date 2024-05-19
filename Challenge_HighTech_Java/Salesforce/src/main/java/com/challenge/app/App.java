@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 import com.challenge.bo.UserBO;
+import com.challenge.dao.UserDAO;
 import com.challenge.model.User;
 import com.challenge.service.UserService;
 
@@ -21,8 +22,9 @@ public class App {
 		System.out.println(" CPF: "+userservice.validarCPF(dev.getCpf()));
 		System.out.println(" Email: "+userservice.validarEmail(dev.getEmail()));
 		System.out.println(" Phone: "+userservice.validarPhone(dev.getPhone()));
-		
+
 		bo.InsertBO(dev);
+		
 		
 		System.out.println("\n    Obrigado por usar o nosso Sistema. \n");
 		System.out.println("            	Dev Team       ");
