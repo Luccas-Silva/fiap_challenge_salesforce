@@ -37,7 +37,7 @@ export default function Cadastro() {
 
           <div className="input-box">
             <label>CPF: </label>
-            <input type="number" {...register('tel')} placeholder="CPF do usuário"/>
+            <input type="number" {...register('CPF')} placeholder="CPF do usuário"/>
             <small>Format: 999.999.999-99</small>
           </div>
 
@@ -56,12 +56,8 @@ export default function Cadastro() {
             <Link href={"/"}>Finalizar Cadastro</Link>
           </button> 
         </form>
-
-       
-
       </section>
-      
-      
+
     </>
   );
 }
