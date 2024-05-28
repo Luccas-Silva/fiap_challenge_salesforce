@@ -1,8 +1,69 @@
 # Fiap Challenge Salesforce
 
-### Objetivo do Projeto
-Nosso foco no projeto é desenvolver um novo site que não apenas impressione, mas que também seja cuidadosamente concebido para atender às necessidades e desejos dos nossos clientes e usuários frequentes. Estamos comprometidos em incluir novas ferramentas de acessibilidade, as quais serão implementadas com base no feedback e nas reclamações dos próprios usuários da plataforma. Nosso objetivo é abordar os problemas identificados pelos usuários e integrá-los à nossa versão do site, visando alcançar a plena satisfação dos clientes e proporcionar uma experiência agradável durante a utilização da plataforma.
+### Descritivo do Projeto
+  Nosso objetivo dentro do projeto é impressionar a Salesforce com um novo site montado
+pensando na satisfação dos clientes e usuários frequentes da empresa, incluindo novas
+ferramentas de acessibilidade que iremos implantar com base em reclamações feitas pelos
+próprios usuários da plataforma Salesforce, a ideia é buscar o que vem sendo um problema para
+os usuários e incrementar dentro da nossa versão do site, buscando assim total satisfação dos
+clientes e trazendo uma experiência agradável durante o uso da plataforma Salesforce.
 
+Além disso, implementaremos ferramentas de acessibilidade para garantir que nosso site
+seja inclusivo e acessível a todos os usuários, independentemente de suas habilidades ou
+limitações. Isso incluirá a otimização de recursos visuais, navegação simplificada e opções de
+iluminação diferentes.
+
+Outro ponto chave do projeto envolverá a criação de novas páginas mais explicativas
+sobre os serviços oferecidos pela Salesforce, fornecendo informações detalhadas sobre o site e
+seus serviços. Isso não apenas esclarecerá dúvidas comuns, mas também destacará
+funcionalidades específicas, conseguindo assim uma compreensão mais profunda por parte dos
+usuários.
+
+Por último pretendemos criar um ChatBot interativo com o usuário para que ele possa se
+localizar mais facilmente pelo site, e também terá a função de fornecer informações de contato
+direto com a Salesforce, visto que a empresa pediu para que isso fosse feito.
+
+
+## Descrição das Funcionalidades do Java
+  A parte de Java se destaca por sua robusta capacidade de gerenciar e processar informações
+provenientes tanto do front-end quanto do banco de dados, de forma simultânea e eficiente.
+Através de uma arquitetura robusta e bem estruturada, o projeto garante a consistência e
+confiabilidade dos dados em todo o sistema.
+
+### Funcionalidades Detalhadas:
+- **Criação e Gerenciamento de Tabelas do Banco de Dados**: O projeto permite a criação e
+o gerenciamento completos de tabelas no banco de dados, atendendo às necessidades
+específicas da aplicação. Isso garante que os dados sejam armazenados de forma
+organizada e eficiente, facilitando o acesso e a consulta.
+
+- **Desenvolvimento de API para o Front-end**: Através da implementação de APIs RESTful,
+o projeto fornece uma interface amigável para o front-end interagir com o back-end.
+Isso permite que os desenvolvedores front-end consumam dados do banco de dados e
+realizem operações com facilidade, sem se preocupar com os detalhes da
+implementação do back-end.
+
+- **Camadas de Abstração para Maior Clareza e Flexibilidade**: O projeto segue os
+princípios da arquitetura em camadas, dividindo a lógica em camadas bem definidas:
+  - **Resource**: Define os endpoints da API e como eles serão acessados pelo frontend.
+  - **Service**: Implementa a lógica de negócio da aplicação, encapsulando as regras e operações sobre os dados.
+  - **Model**: Representa os modelos de dados da aplicação, definindo a estrutura das entidades e seus atributos.
+  - **DAO (Data Access Object)**: Abstrai o acesso ao banco de dados, isolando a lógica
+de negócio da tecnologia de banco de dados específica. Essa separação de
+responsabilidades torna o código mais claro, fácil de manter e testável.
+
+## Benefícios do Projeto:
+- **Arquitetura robusta e escalável**: A arquitetura em camadas garante que o projeto seja
+robusto, escalável e fácil de manter, mesmo em cenários com alto volume de dados e
+usuários.
+
+- **Maior produtividade**: A utilização de APIs e a abstração do acesso ao banco de dados
+permitem que os desenvolvedores se concentrem na lógica de negócio da aplicação,
+aumentando a produtividade e a qualidade do código.
+
+### Consistência e confiabilidade dos dados:
+A centralização do gerenciamento de dados garante
+que os dados sejam consistentes e confiáveis em todo o sistema, minimizando o risco de erros
+e inconsistências.
 
 ## Tecnologias
 - `HTML`
@@ -10,6 +71,7 @@ Nosso foco no projeto é desenvolver um novo site que não apenas impressione, m
 - `React`
 - `TypeScript`
 - `Java`
+- `Apache Maven`
 - `Figma`
 
 ## Design do Site
@@ -34,8 +96,7 @@ Nosso foco no projeto é desenvolver um novo site que não apenas impressione, m
 ## Diagrama de Classes
 <div align="center">
 
-  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/c51a2e3c-359f-47df-9bec-8fba3e1b5efb)
-  ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/5fc58539-d317-42cd-acf7-8856c50deb5b)
+ ![image](https://github.com/Luccas-Silva/fiap_challenge_salesforce/assets/89430801/3f211e48-6994-48db-9167-071ecdf7b824)
 </div>
 
 ## Modelagem do Banco de Dados
